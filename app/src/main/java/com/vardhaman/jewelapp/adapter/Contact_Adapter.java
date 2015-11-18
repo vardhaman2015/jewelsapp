@@ -68,6 +68,9 @@ public class Contact_Adapter extends RecyclerView.Adapter<Contact_Adapter.DataOb
         }
     }
 
+
+
+
     public void setOnItemClickListener(MyClickListener myClickListener) {
 
         Log.i(LOG_TAG, "OnItemClickListener");
