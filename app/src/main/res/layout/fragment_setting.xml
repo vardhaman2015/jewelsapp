@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+android:background="#bebebe"
+    android:layout_height="match_parent" tools:context="com.vardhaman.jewelapp.Fragment.SettingFragment">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:layout_margin="10dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_account"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification Tone"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_sound"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrate"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_vibrate"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat Setting"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wallpaper"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_walpaper"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All Conversation"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_delete"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:drawableLeft="@drawable/ic_action_share"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"/>
+</LinearLayout>
+</LinearLayout>

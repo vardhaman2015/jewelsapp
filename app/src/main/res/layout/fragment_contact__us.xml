@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent" tools:context="com.vardhaman.jewelapp.Fragment.Contact_UsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large"
+        android:layout_margin="10dp"
+        android:text="Do you hav any question,feedback or suggestion? Feel free to contact us."
+        android:textColor="@color/textcolor"
+
+
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="10dp"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Enter Message "
+            android:textColorHint="@color/myPrimaryColor"
+            android:textColor="@color/textcolor"
+            android:drawablePadding="10dp"
+            android:focusable="true"
+            android:background="@drawable/edit_text_whitbg_blueborder"
+            android:id="@+id/forgot_email"
+            android:textAllCaps="false"
+          />
+
+       </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail us"
+        android:id="@+id/bsubmit"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/corner_button"/>
+</LinearLayout>
